@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 20px;
+}
+p{
+  font-size: 21px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 700;
+  text-align: justify;
+}
+marquee{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  /* font-weight: ; */
+  color: #00008B;
+  background-color: #7FFF00;
+  box-shadow: 12px/*x-axis*/ -10px/*y-axis*/ 15px/*blur*/ 5px/*spread-radius*/ #FFFF00/*color*/ /*inset/*if we want to insert shadow inside*/, /*another shadow*/ -5px/*x-axis*/ 15px/*y-axis*/ 10px/*blur*/ 5px/*spread-radius*/ #FF1493;
+  margin-bottom: 25px;
+}
+img{
+ cursor: grab;
+}
+::selection{
+  color: limegreen;
+  background: black;
+}
